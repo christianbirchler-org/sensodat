@@ -51,7 +51,7 @@ def write_collection(_data_path: Path, mongodb_collection):
 
 sdc_sim_db = client['sdc_sim_data']
 
-data_path = Path('../data/')
+data_path = Path('./data/')
 
 for key, data_dir_name in enumerate(sorted(os.listdir(data_path))):
     if 'README.md' in data_dir_name or 'data.zip' in data_dir_name:
