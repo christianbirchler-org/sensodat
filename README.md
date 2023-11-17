@@ -1,9 +1,12 @@
 # Create MongoDB with SDC Simulation Data
+## Requirements
+You need to have [Docker](https://docker.com) installed and running.
+
 ## Automatic setup
 To set up a MongoDB with the SDC simulation data, ensure `Docker` is up and running.
 Then simply execute the `setup.sh` (Linux/MacOS) or `setup.bat` (Windows) script.
 
-## Automatic cleanup
+## Automatic clean up
 To tear down the database simply execute the `cleanup.sh` (Linux/MacOS) or `cleanup.bat` (Windows) script.
 
 ## Manual setup
