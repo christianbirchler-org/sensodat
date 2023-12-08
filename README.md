@@ -2,6 +2,8 @@
 ## Requirements
 You need to have [Docker](https://docker.com) installed and running.
 
+NOTE: The following instructions were tested with Windows and Linux with 32GB RAM.
+
 ## Automatic setup
 To set up a MongoDB with the SDC simulation data, ensure `Docker` is up and running.
 Then simply execute the `setup.sh` (Linux/MacOS) or `setup.bat` (Windows) script.
