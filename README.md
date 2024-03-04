@@ -1,4 +1,8 @@
-# Create MongoDB with SDC Simulation Data
+# SensoDat
+SensoDat is a dataset of self-driving car simulation data. Concretely, it contains:
+- Simulation description
+- Sensor data as time series
+
 ## Requirements
 You need to have [Docker](https://docker.com) installed and running.
 
