@@ -3,9 +3,22 @@ SensoDat is a dataset of self-driving car simulation data. Concretely, it contai
 - Simulation description
 - Sensor data as time series
 
-## Associated Published Paper
+## Associated Paper Preprint
 ```{bibtex}
-
+@article{sensodat-preprint,
+  author       = {Christian Birchler and
+                  Cyrill Rohrbach and
+                  Timo Kehrer and
+                  Sebastiano Panichella},
+  title        = {SensoDat: Simulation-based Sensor Dataset of Self-driving Cars},
+  journal      = {CoRR},
+  volume       = {abs/2401.09808},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2401.09808},
+  doi          = {10.48550/ARXIV.2401.09808},
+  eprinttype    = {arXiv},
+  eprint       = {2401.09808},
+}
 ```
 
 ## Requirements
