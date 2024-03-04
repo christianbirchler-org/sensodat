@@ -1,7 +1,7 @@
 # SensoDat: Simulation-based Sensor Dataset of Self-driving Cars
-SensoDat is a dataset of self-driving car simulation data. Concretely, it contains:
-- Simulation description
-- Sensor data as time series
+SensoDat is a dataset of self-driving car simulation data (**30K executed simulations**). Concretely, it contains:
+- Simulation description data (OpenDRIVE, SDC-Scissor format)
+- Sensor data as time series of 81 sensors/properties
 
 ## Associated Paper Preprint
 ```{bibtex}
