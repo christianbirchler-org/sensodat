@@ -5,8 +5,20 @@ SensoDat is a dataset of self-driving car simulation data (**30K executed simula
 - Simulation description data in [ASAM OpenDRIVE](https://www.asam.net/standards/detail/opendrive/) format
 - Sensor data as time series of 81 sensors/properties
 
-## Associated Paper Preprint
+## Associated Paper
 ```{bibtex}
+@inproceedings{sensodat,
+  author       = {Christian Birchler and
+                  Cyrill Rohrbach and
+                  Timo Kehrer and
+                  Sebastiano Panichella},
+  title        = {SensoDat: Simulation-based Sensor Dataset of Self-driving Cars},
+  booktitle    = {21th {IEEE/ACM} International Conference on Mining Software Repositories,
+                  {MSR} 2024, Lisbon, Portugal, April 15-16, 2024},
+  year         = {2024},
+  doi          = {to appear},
+}
+
 @article{sensodat-preprint,
   author       = {Christian Birchler and
                   Cyrill Rohrbach and
