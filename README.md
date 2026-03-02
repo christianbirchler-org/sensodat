@@ -1,4 +1,11 @@
 # SensoDat: Simulation-based Sensor Dataset of Self-driving Cars
+
+## Documentation
+
+- [DOCUMENTATION.md](./DOCUMENTATION.md)
+
+
+## Links
 Latest Release on Zendodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12600225.svg)](https://doi.org/10.5281/zenodo.12600225)
 
 Original Paper Artifact: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10307479.svg)](https://doi.org/10.5281/zenodo.10307479)
@@ -105,3 +112,4 @@ docker compose -f ./environment/docker-compose.yml up down
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
+
