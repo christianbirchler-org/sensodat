@@ -4,6 +4,9 @@
 
 - [DOCUMENTATION.md](./DOCUMENTATION.md)
 
+## Examples
+Please look at some examples in the `examples/` directory.
+There you can get some inspiration how to connect to the MongoDB and doing some simple queries on SensoDat.
 
 ## Links
 Latest Release on Zendodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12600225.svg)](https://doi.org/10.5281/zenodo.12600225)
