@@ -1,8 +1,16 @@
 # SensoDat: Simulation-based Sensor Dataset of Self-driving Cars
+Developing tools in the context of autonomous systems, such as self-driving cars (SDCs), is time-consuming and costly since researchers and practitioners rely on expensive computing hardware and simulation software.
+We propose SensoDat, a dataset of 32,580 executed simulation-based SDC test cases generated with state-of-the-art test generators for SDCs.
+The dataset consists of trajectory logs and a variety of sensor data from the SDCs (e.g., rpm, wheel speed, brake thermals, transmission, etc.) represented as a time series.
+In total, SensoDat provides data from 81 different simulated sensors.
+Future research in the domain of SDCs does not necessarily depend on executing expensive test cases when using SensoDat.
+Furthermore, with the high amount and variety of sensor data, we think SensoDat can contribute to research, particularly for AI development, regression testing techniques for simulation-based SDC testing, flakiness in simulation, etc.
+
+- Link to original paper: https://doi.org/10.1145/3643991.3644891
 
 ## Documentation
-
-- [DOCUMENTATION.md](./DOCUMENTATION.md)
+Please refer to the paper publication for the general overview of the dataset.
+A condensed version of it you find here: [DOCUMENTATION.md](./DOCUMENTATION.md)
 
 ## Examples
 Please look at some examples in the `examples/` directory.
