@@ -1,4 +1,3 @@
-#!/bin/bash
 docker compose -f ./environment/docker-compose.yml up -d --build
 docker cp ./data uploader:/app/data
 docker exec uploader unzip ./data/data.zip -d ./data

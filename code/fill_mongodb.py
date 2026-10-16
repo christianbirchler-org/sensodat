@@ -7,7 +7,8 @@ import re
 import xmltodict
 
 
-uri = "mongodb://msr:fooBar@{}:27017/?authMechanism=DEFAULT".format(os.getenv('MONGO_IP'))
+#uri = "mongodb://msr:fooBar@{}:27017/?authMechanism=DEFAULT".format(os.getenv('MONGO_IP'))
+uri = "mongodb://{}:27017/".format(os.getenv('MONGO_IP'))
 
 # Set the Stable API version when creating a new client
 client = MongoClient(uri, server_api=ServerApi('1'))

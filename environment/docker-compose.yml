@@ -1,11 +1,12 @@
 version: '3.1'
 services:
   mongo:
-    image: mongo:5.0.22
+    #image: mongo:5.0.22
+    image: mongo
     container_name: mongo
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: msr
-      MONGO_INITDB_ROOT_PASSWORD: fooBar
+    #environment:
+    #  MONGO_INITDB_ROOT_USERNAME: msr
+    #  MONGO_INITDB_ROOT_PASSWORD: fooBar
     ports:
       - 27017:27017
 
