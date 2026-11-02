@@ -9,6 +9,7 @@ Furthermore, with the high amount and variety of sensor data, we think SensoDat 
 - Link to original paper: https://doi.org/10.1145/3643991.3644891
 
 ## Quick Start (Recommended)
+0. Clone repository with [Git LFS](https://git-lfs.com/)
 1. Set up a MongoDB instance (see [MongoDB Community Edition](https://www.mongodb.com/products/self-managed/community-edition))
 2. Import the SensoDat `mongorestore -d sensodat mongodump/sensodat`
 
