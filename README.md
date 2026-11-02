@@ -8,6 +8,10 @@ Furthermore, with the high amount and variety of sensor data, we think SensoDat 
 
 - Link to original paper: https://doi.org/10.1145/3643991.3644891
 
+## Quick Start (Recommended)
+1. Set up a MongoDB instance (see [MongoDB Community Edition](https://www.mongodb.com/products/self-managed/community-edition))
+2. Import the SensoDat `mongorestore -d sensodat mongodump/sensodat`
+
 ## Documentation
 Please refer to the paper publication for the general overview of the dataset.
 A condensed version of it you find here: [DOCUMENTATION.md](./DOCUMENTATION.md)
@@ -60,14 +64,16 @@ You need to have [Docker](https://docker.com) installed and running.
 
 NOTE: The following instructions were tested with Windows and Linux with 32GB RAM.
 
-## Automatic setup
+
+## Data processing and DB setup
+### Automatic setup
 To set up a MongoDB with the SDC simulation data, ensure `Docker` is up and running.
 Then simply execute the `setup.sh` (Linux/MacOS) or `setup.bat` (Windows) script.
 
-## Automatic clean up
+### Automatic clean up
 To tear down the database simply execute the `cleanup.sh` (Linux/MacOS) or `cleanup.bat` (Windows) script.
 
-## Manual setup
+### Manual setup
 Run the following commands in the exact order to setup the database:
 
 Start an `uploader` and a `mongo` container:
