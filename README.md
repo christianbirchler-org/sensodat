@@ -59,13 +59,12 @@ SensoDat is a dataset of self-driving car simulation data (**30K executed simula
 }
 ```
 
-## Requirements
+## Data processing and DB setup
+### Requirements
 You need to have [Docker](https://docker.com) installed and running.
 
 NOTE: The following instructions were tested with Windows and Linux with 32GB RAM.
 
-
-## Data processing and DB setup
 ### Automatic setup
 To set up a MongoDB with the SDC simulation data, ensure `Docker` is up and running.
 Then simply execute the `setup.sh` (Linux/MacOS) or `setup.bat` (Windows) script.
